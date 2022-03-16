@@ -22,7 +22,7 @@ if($sql->rowCount() > 0){
 <body>
     <div class="container">
     <div class="d-grid gap-2"><br>
-    <a href="adicionar.php" button type="button" class="btn btn-outline-primary btn-lg" >ADICIONAR USUÁRIO</a>
+    <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-lg" >ADICIONAR USUÁRIO</a>
 </div>
     <!--<a href="adicionar.php" >ADICIONAR USUÁRIO</a>-->
     <table class="table table-hover">
@@ -43,8 +43,8 @@ if($sql->rowCount() > 0){
       <td><?php echo $usuario['nome']; ?></td>
       <td><?php echo $usuario['email']; ?></td>
       <td>
-        <a href="editar.php?id=<?php echo $usuario['id']; ?>">[Editar]</a>
-        <a href="excluir.php?id=<?php echo $usuario['id']; ?>" onclick="return confirm('Tem certeza que deseja excluir? ')">[Excluir]</a>
+        <a href="editar.php?id=<?php echo $usuario['id']; ?>" class="btn btn-outline-warning">Editar</a>
+        <a href="excluir.php?id=<?php echo $usuario['id']; ?>" onclick="return confirm('Tem certeza que deseja excluir? ')" class="btn btn-outline-danger">Excluir</a>
       </td>
     </tr>
   </tbody>
