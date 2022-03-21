@@ -22,19 +22,19 @@ if($sql->rowCount() > 0){
 <body>
     <div class="container">
     <div class="d-grid gap-2"><br>
-    <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-lg" >ADICIONAR USUÁRIO</a>
-</div>
+    <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#addUsuarioModal" >CADASTRAR USUÁRIO</a>
+    </div>
     <!--<a href="adicionar.php" >ADICIONAR USUÁRIO</a>-->
     <table class="table table-hover">
     
-  <thead class="table-dark">
-    <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Nome</th>
-      <th scope="col">E-mail</th>
-      <th scope="col">Ações</th>
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Ações</th>
       </tr>
-  </thead>
+    </thead>
 
   <tbody>
     <?php foreach($lista as $usuario): ?>
