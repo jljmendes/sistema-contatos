@@ -6,4 +6,11 @@ body {
 }
 table{
     background: #FFFFFF70;
+    border: 2px solid;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
