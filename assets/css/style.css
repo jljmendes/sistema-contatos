@@ -4,6 +4,10 @@
     background-size: cover;
     background-position: center center;
 } */
+
+body {
+    background-color: blue;    
+}
 table{
     background: #FFFFFF95;
     border: 2px solid;
