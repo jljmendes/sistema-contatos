@@ -25,7 +25,10 @@ if ($sql->rowCount() > 0) {
 <body>
   <div class="container">
     <div class="d-grid gap-2"><br>
-      <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#addUsuarioModal">CADASTRAR NOVO USUÁRIO</a>
+      <<<<<<< HEAD <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#addUsuarioModal">CADASTRAR NOVO USUÁRIO</a>
+        =======
+        <a href="adicionar.php" button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#addUsuarioModal">CADASTRAR NOVO USUÁRIO</a>
+        >>>>>>> c226020d29176aaa09a53c29fd64d880abbcee07
     </div>
     <!--<a href="adicionar.php" >ADICIONAR USUÁRIO</a>-->
     <table class="table table-hover">
